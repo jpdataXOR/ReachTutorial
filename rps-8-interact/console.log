@@ -1,0 +1,40 @@
+unixadmin@DESKTOP-LT2EKS6:/mnt/c/reach/tut/examples/rps-8-interact$ ./reach run
+[+] Building 0.3s (7/7) FINISHED
+ => [internal] load build definition from Dockerfile                                  0.1s 
+ => => transferring dockerfile: 38B                                                   0.0s 
+ => [internal] load .dockerignore                                                     0.1s 
+ => => transferring context: 34B                                                      0.0s 
+ => [internal] load metadata for docker.io/reachsh/runner:0.1.9                       0.0s 
+ => [1/2] FROM docker.io/reachsh/runner:0.1.9                                         0.0s 
+ => [internal] load build context                                                     0.1s 
+ => => transferring context: 271B                                                     0.0s 
+ => CACHED [2/2] COPY . /app                                                          0.0s 
+ => exporting to image                                                                0.1s 
+ => => exporting layers                                                               0.0s 
+ => => writing image sha256:68a35bd33f3b4dbf4156225d3daa663faccc1bbbfcdb399b40bf20aa  0.0s 
+ => => naming to docker.io/reachsh/reach-app-rps-8-interact:0.1.9                     0.0s 
+
+Use 'docker scan' to run Snyk tests against images to find vulnerabilities and learn how to fix them
+
+> index
+> node --experimental-modules --unhandled-rejections=strict index.mjs
+
+Are you Alice?
+n
+Starting Rock, Paper, Scissors! as Bob
+Would you like to create an account? (only possible on devnet)
+y
+Please paste the contract information:
+{"type":"BigNumber","hex":"0xb2"}
+Your balance is 1000
+Do you accept the wager of 55?
+y
+What hand will you play?
+Paper
+You played Paper
+The outcome is: Bob wins
+Your balance is now 1054.997
+npm notice 
+npm notice New minor version of npm available! 8.3.1 -> 8.6.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v8.6.0
+npm notice Run npm install -g npm@8.6.0 to update!

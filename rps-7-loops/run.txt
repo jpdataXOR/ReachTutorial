@@ -1,0 +1,23 @@
+
+> index
+> node --experimental-modules --unhandled-rejections=strict index.mjs
+
+Bob accepts the wager of 5.
+Alice played Rock
+Bob played Rock
+Alice played Scissors
+Bob played Scissors
+Alice played Scissors
+Bob played Scissors
+Alice played Paper
+Bob played Scissors
+Alice saw outcome Bob wins
+Bob saw outcome Bob wins
+Alice went from 100 to 94.986.
+Bob went from 100 to 104.994.
+[37;40mnpm[0m [0m[34;40mnotice[0m[35m[0m 
+[0m[37;40mnpm[0m [0m[34;40mnotice[0m[35m[0m New [33mminor[39m version of npm available! [31m8.3.1[39m -> [32m8.6.0[39m
+[0m[37;40mnpm[0m [0m[34;40mnotice[0m[35m[0m Changelog: [36mhttps://github.com/npm/cli/releases/tag/v8.6.0[39m
+[0m[37;40mnpm[0m [0m[34;40mnotice[0m[35m[0m Run [32mnpm install -g npm@8.6.0[39m to update!
+[0m[37;40mnpm[0m [0m[34;40mnotice[0m[35m[0m 
+[0m
